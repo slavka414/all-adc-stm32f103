@@ -1,0 +1,10 @@
+
+#ifndef ACS_H_
+#define ACS_H_
+
+uint32_t adc1, adc2, adc3, adc4, adc5;
+char adc_buf[10];
+volatile uint16_t adc_data[10];
+uint8_t i;
+
+#endif
